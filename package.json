@@ -1,0 +1,13 @@
+{
+  "name": "Acko",
+  "description": "Acko in a jungle singing on a tree.",
+  "version": "0.0.9",
+  "main": "Wack.js",
+  "scripts": {
+    "start": "node Wack.js"
+  },
+  "dependencies": {
+    "discord.js": "11.1.0",
+    "request": "2.81.0"
+  }
+}
