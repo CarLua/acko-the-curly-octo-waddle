@@ -7,16 +7,10 @@ client.on("ready", () => {
 
 client.on("message", (message) => {
   if (message.content === ("a!ping")) {
-    message.channel.send({embed: {
-      color: 3447003,
-      description: "**Pong!** Wack. *Acko? Acko!*"
-    }});
+    message.channel.send('**Pong!**')
   }
   if (message.content === ("a!help")) {
-    message.channel.send({embed: {
-      color: #ff9933,
-      description: "Acko not know help! Acko see under construction!"
-    }});
+    message.channel.send('');
   }
 });
 // Heroku support
